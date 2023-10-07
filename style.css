@@ -1,0 +1,15 @@
+
+html {background: black url(background.jpg) center center no-repeat;color: white; filter: }
+body {display: block; place-items: center; font-family: inter,helvatica,arial,sans-serif; font-size: 16px;line-height: 1.5em;margin: 0;} @media (min-width: 500px) {body { display: grid;} }
+.Container { background: rgba(255, 227, 84, 0.80);padding: 1rem;font-size: clamp(1rem, 2vw, 2rem);line-height: 1.5em;} @media (min-width: 300px) { .Container { margin: 2vh; padding: 2rem; border-radius: 2rem; } }
+    header{}
+        .Avatar {display: block; float: left; float: top; width: 125px; height: 125px; margin: 0 2em 2em 2em; border-radius: 50%;} @media (min-width: 380px) { .Avatar { float: left; float: top; } }
+        @media (min-width: 310px) { .Avatar { width: clamp(130px, 14vw, 12rem ); height: auto; } }
+        .TitlulPaginii {display: block; font-size: clamp(2rem, 6vw, 6rem); margin: 0; line-height: ;} @media (min-width: 1430px) { .TitlulPaginii { margin: 2vh; padding: 2rem; border-radius: 2rem; } }
+        .DescriereaPrincipala { display: block; margin: 0.5em 0 2em; border-bottom: 5px solid rgb(93, 87, 230);} @media (min-width: 400px) { .DescriereaPrincipala {font-size: clamp(1rem, 4vw, 6rem); } }
+    main {clear: both; } 
+        .ListaLinkuri { display: block; margin: 0; padding: 0; border-top:  1px solid white; }
+            .ListaItem { display: block; margin: 0; padding: 0; border-bottom: 1px solid white; }
+                .ListaLink { display: block; margin: 0; padding: 0.5em; color: white; text-decoration: none; }
+                .ListaLink:hover { background: white; color: black; }
+                    .ListaTitluri { display: block; margin: 0; padding: 0; font-size: 2em; line-height: 1.5em; }
